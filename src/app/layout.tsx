@@ -14,9 +14,6 @@ type TRootLayout = {
 };
 
 const RootLayout: React.FC<TRootLayout> = ({ children }) => {
-  const teste = 'teste';
-  const teste2 = 'teste';
-
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
